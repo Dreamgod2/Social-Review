@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../site">Reviews</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <form action="login.php" method="POST">
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <input type="submit" name="login" value="Login" />
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Social Reviews</p>
+    </footer>
+  </body>
+</html>
